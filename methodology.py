@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 
-df = pd.read_csv("C:\\project .Afficionado Coffee Roasters\\Afficionado Coffee Roasters.csv")
+df = pd.read_csv("Afficionado Coffee Roasters.csv")
 print(df)
 #EDA section Data Ingestion & Validation
 print(df.shape)
