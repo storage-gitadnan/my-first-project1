@@ -5,7 +5,7 @@ import methodology as m
 import numpy as np
 import altair as alt
 #reading a csv file
-df = pd.read_csv(r"C:\project .Afficionado Coffee Roasters\Afficionado Coffee Roasters.csv", low_memory=False)
+df = pd.read_csv("Afficionado Coffee Roasters.csv")
 
 #calculate the revenue and total revenue
 df["revenue"] = df["transaction_qty"]* df["unit_price"]
