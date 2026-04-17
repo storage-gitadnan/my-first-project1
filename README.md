@@ -68,7 +68,8 @@ pip install -r requirements.txt
 ```
 streamlit run dashboard.py
 ```
-
+this is the link of live dashboard link
+http://localhost:8501/
 ---
 
 ## 📌 Future Improvements
